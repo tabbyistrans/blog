@@ -17,6 +17,8 @@
     "typescript": "^5.5.3"
   },
   "devDependencies": {
+    "@catppuccin/daisyui": "^1.1.1",
+    "@catppuccin/tailwindcss": "^0.1.6",
     "daisyui": "^4.12.10"
   }
 }

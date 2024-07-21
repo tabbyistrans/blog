@@ -1,0 +1,16 @@
+---
+import Navbar from "../components/navbar.astro"
+---
+<html lang="en" data-theme="catppuccin" class = "mocha bg-base">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="generator" content={Astro.generator} />
+		<title>tabbyistrans</title>
+	</head>
+	<body>
+    <Navbar />
+    <slot class='items-center text-center'/>
+	</body>
+</html>
